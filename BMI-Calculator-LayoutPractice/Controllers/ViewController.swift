@@ -24,7 +24,10 @@ class ViewController: UIViewController {
         let height = heightValue.value
         let weight = weightValue.value
         let bmi = weight / (height * height)
-        print(bmi)
+        
+        let secondVC = SecondViewController()
+        secondVC.textLabel = String(format: "%.1f", bmi)
+        self.present(secondVC, animated: false, completion: nil)
     }
     
 }
