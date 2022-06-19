@@ -1,14 +1,14 @@
 import Foundation
 
 struct CalculateBMI {
-    var bmiValue : Float = 0
+    var bmi : BMI?
     
     mutating func calculateBMI(height: Float, weight: Float) -> Void {
-        bmiValue = weight / (height * height)
+        bmi?.value = weight / (height * height)
     }
     
     func getBMIValueInString() -> String {
-        return String(format: "%.1f", bmiValue)
+        return String(format: "%.1f", bmi?.value ?? 0)
     }
     
 }

@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A5462BB1285BE87700208C3D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5462BB0285BE87700208C3D /* ResultViewController.swift */; };
-		A5462BB3285CA25A00208C3D /* CalculateBMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5462BB2285CA25A00208C3D /* CalculateBMI.swift */; };
+		A5462BDD285FB91000208C3D /* CalculateBMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5462BDC285FB91000208C3D /* CalculateBMI.swift */; };
+		A5462BE0285FBA3B00208C3D /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5462BDF285FBA3B00208C3D /* BMI.swift */; };
 		AD0B9F9F230D64B30065EFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F9E230D64B30065EFD9 /* AppDelegate.swift */; };
 		AD0B9FA1230D64B30065EFD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9FA0230D64B30065EFD9 /* SceneDelegate.swift */; };
 		AD0B9FA3230D64B30065EFD9 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9FA2230D64B30065EFD9 /* CalculateViewController.swift */; };
@@ -20,7 +21,8 @@
 
 /* Begin PBXFileReference section */
 		A5462BB0285BE87700208C3D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		A5462BB2285CA25A00208C3D /* CalculateBMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalculateBMI.swift; path = "BMI-Calculator-LayoutPractice/Controllers/CalculateBMI.swift"; sourceTree = SOURCE_ROOT; };
+		A5462BDC285FB91000208C3D /* CalculateBMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateBMI.swift; sourceTree = "<group>"; };
+		A5462BDF285FBA3B00208C3D /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 		AD0B9F9B230D64B30065EFD9 /* BMI-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B9F9E230D64B30065EFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0B9FA0230D64B30065EFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5462BDE285FB95A00208C3D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5462BDC285FB91000208C3D /* CalculateBMI.swift */,
+				A5462BDF285FBA3B00208C3D /* BMI.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		AD0B9F92230D64B30065EFD9 = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +76,7 @@
 			children = (
 				AD0B9F9E230D64B30065EFD9 /* AppDelegate.swift */,
 				AD0B9FA0230D64B30065EFD9 /* SceneDelegate.swift */,
-				AD0B9FB4230D64F70065EFD9 /* Models */,
+				A5462BDE285FB95A00208C3D /* Models */,
 				AD0B9FB2230D64E70065EFD9 /* Views */,
 				AD0B9FB3230D64F00065EFD9 /* Controllers */,
 				AD0B9FA7230D64B50065EFD9 /* Assets.xcassets */,
@@ -90,14 +101,6 @@
 				A5462BB0285BE87700208C3D /* ResultViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		AD0B9FB4230D64F70065EFD9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				A5462BB2285CA25A00208C3D /* CalculateBMI.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +178,8 @@
 				AD0B9FA3230D64B30065EFD9 /* CalculateViewController.swift in Sources */,
 				AD0B9F9F230D64B30065EFD9 /* AppDelegate.swift in Sources */,
 				AD0B9FA1230D64B30065EFD9 /* SceneDelegate.swift in Sources */,
-				A5462BB3285CA25A00208C3D /* CalculateBMI.swift in Sources */,
+				A5462BDD285FB91000208C3D /* CalculateBMI.swift in Sources */,
+				A5462BE0285FBA3B00208C3D /* BMI.swift in Sources */,
 				A5462BB1285BE87700208C3D /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
