@@ -17,4 +17,4 @@ By the end of the module, I made a Body Mass Index calculator. Based on the user
 * Formatting Strings. 
 * Color literals.
 
-<img src="https://github.com/CyrilusK/BMI-calculator/blob/main/record.gif" width="200" height="200"/>
+<img src="https://github.com/CyrilusK/BMI-calculator/blob/main/record.gif" width="263" height="566"/>
