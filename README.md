@@ -18,3 +18,4 @@ By the end of the module, I made a Body Mass Index calculator. Based on the user
 * Color literals.
 
 ![End Banner](record.gif)
+<img src="https://github.com/CyrilusK/BMI-calculator/blob/main/record.gif" width="50" height="50"/>
