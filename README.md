@@ -17,3 +17,4 @@ By the end of the module, I made a Body Mass Index calculator. Based on the user
 * Formatting Strings. 
 * Color literals.
 
+![End Banner](record.gif)
