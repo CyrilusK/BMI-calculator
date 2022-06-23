@@ -16,13 +16,13 @@ struct CalculateBMI {
     
     func setAdvice(bmi: Float) -> String {
         if bmi < 18.5 {
-            return "Съешьте больше пирогов!"
+            return "Можете есть больше пирогов!"
         }
         else if bmi < 24.9 {
             return "Идеально!"
         }
         else {
-            return "Съешьте меньше пирогов!"
+            return "Ешьте меньше пирогов!"
         }
     }
     
