@@ -85,7 +85,7 @@
                                             <constraint firstAttribute="height" constant="50" id="tyh-pX-Ueq"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="РАССЧИТАЙТЕ">
+                                        <state key="normal" title="РАССЧИТАТЬ">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
